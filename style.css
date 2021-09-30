@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+nav {
+  padding: 10px 50px 0 !important;
+}
+
+nav li {
+  display: block;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.nav-item button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+
+.container {
+  float: left;
+}
+
+.page-contact-sidebar {
+  height: 100%;
+  max-width: 100px;
+  min-width: 100px;
+  background-color: #fff;
+}
+
+.page-contact-sidebar a {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.sidebar-page {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 160px;
+  width: 100px;
+}
+
+.divider img {
+  cursor: pointer;
+}
+
+.sidebar-text-rotate {
+  transform: rotate(90deg);
+}
+
+.divider {
+  margin: 0 auto;
+  border-left: 1px solid rgba(83, 89, 108, .2);
+  height: 100px;
+  width: 0;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  background-image: url('img/gym.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.gym {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 54px;
+}
+
+.strengths {
+  justify-content: center;
+  display: flex;
+}
+
+.our_strengths {
+  max-width: 1140px;
+  padding: 80px 0;
+}
+
+.strengths h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.w-iconbox-icon {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0) inset, 0 2px 3px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+  background-color: #3f4544;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: box-shadow 0.3s;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas,
+.far {
+  color: white;
+}
+
+.pogbar-title-text{
+  padding: 0 20px; 
+}
+
+.progress {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.progress-done {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(to left, #F2709C, #FF9472);
+  animation: progress-animation 5s forwards;
+}
+
+.progress-done2 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(to left, #F2709C, #FF9472);
+  animation: progress-animation2 5s forwards;
+}
+
+.progress-done3 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(to left, #F2709C, #FF9472);
+  animation: progress-animation3 5s forwards;
+}
+
+h4,
+h5 {
+  color: #c2c4c5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.carousel-row {
+  padding-top: 70px;
+  padding-bottom: 75px;
+  justify-content: center;
+}
+
+.carousel-row .owl-carousel div img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width:200px;
+}
+
+.carousel-row .owl-carousel div .owl-item {
+  width: 350px;
+}
+
+.carousel-row .owl-carousel .owl-dots {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-dot {
+  position: relative;
+}
+
+.owl-dot::before {
+  position: absolute;
+  top: -12px;
+  left: -40px;
+}
+
+.owl-dot:first-child::before {
+  content: '2013';
+}
+
+.owl-dot:nth-child(2)::before {
+  content: '2014';
+}
+
+.owl-dot:nth-child(3)::before {
+  content: '2015';
+}
+
+.owl-dot:last-child::before {
+  content: '2016';
+}
+
+.carousel-row .owl-carousel .owl-dots button {
+  display: inline-block;
+  border: 40px solid #506a85 !important;
+  border-radius: 50%;
+}
+
+.carousel-row .owl-carousel .owl-dots button.active {
+  border-color: #00bc9c !important;
+}
+
+.carousel-row h2 {
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  color: black;
+  font-size: 34px;
+  text-align: center;
+}
+
+.slide {
+  display: flex;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+}
+
+.three {
+  padding-right: 6%;
+}
+
+.two {
+  padding-left: 6%;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes progress-animation2 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-animation3 {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
